@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         /**
-         * Llamar a la función en el main y darle valores.
+         * Llamar a la función suma() en el main y darle valores.
          */
         System.out.print("Se llama a la funcion -> suma(1,2,3), y se obtiene como resultado: ");
         suma(1, 2, 3);
