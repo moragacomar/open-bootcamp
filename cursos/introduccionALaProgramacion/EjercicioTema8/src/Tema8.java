@@ -1,7 +1,7 @@
 public class Tema8 {
     public static void main(String[] args) throws Exception {
         /**
-         * Para practicar la encapsulación:
+         * Para practicar la encapsulación: 
          * Crear un objeto persona en el main.
          */
         Persona Juan = new Persona();
