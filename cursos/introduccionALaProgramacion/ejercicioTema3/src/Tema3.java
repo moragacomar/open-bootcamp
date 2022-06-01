@@ -1,4 +1,4 @@
-public class Main {
+public class Tema3 {
     public static void main(String[] args) {
         /**
          * Llamar a la función suma() en el main y darle valores.

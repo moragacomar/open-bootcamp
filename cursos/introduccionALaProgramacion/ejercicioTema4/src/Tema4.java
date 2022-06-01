@@ -1,4 +1,4 @@
-public class App {
+public class Tema4 {
     public static void main(String[] args) throws Exception {
         /**
          * Usando un if, crear una condición que compare si la variable numeroIf es
