@@ -9,7 +9,6 @@ public class Main {
         /**
          * Crear un objeto miCoche en el main y añadirle una puerta.
          */
-
         Coche miCoche = new Coche();
         miCoche.addDoor();
 
