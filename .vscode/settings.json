@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "cursos/introduccionALaProgramacion/ejercicioTema4/src",
         "cursos/introduccionALaProgramacion/ejercicioTema3/src",
-        "cursos/introduccionALaProgramacion/EjercicioTema8/src"
+        "cursos/introduccionALaProgramacion/EjercicioTema8/src",
+        "cursos\\introduccionALaProgramacion\\ejercicioTema9\\src"
     ]
 }
