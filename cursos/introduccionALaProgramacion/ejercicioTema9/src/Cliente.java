@@ -2,7 +2,7 @@
  * Crea una nueva clase Cliente que herede de Persona,
  * esta nueva clase tendrá la variable credito solo para esa clase.
  */
-public class Cliente {
+public class Cliente extends Persona {
 
     private int credito;
 

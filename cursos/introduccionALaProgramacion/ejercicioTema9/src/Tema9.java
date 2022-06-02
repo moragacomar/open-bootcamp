@@ -7,5 +7,13 @@ public class Tema9 {
          */
         Cliente Juan = new Cliente();
 
+        Juan.setEdad(36);
+        Juan.setNombre("Juan Moraga");
+        Juan.setTelefono("+5438342147..");
+        Juan.setCredito(1500);
+
+        System.out.println(
+                "El Cliente " + Juan.getNombre() + ", tiene " + Juan.getEdad() + " años, su numero de telefono es "
+                        + Juan.getTelefono() + ", y se le otorgo un acredito de $" + Juan.getCredito() + ".");
     }
 }
