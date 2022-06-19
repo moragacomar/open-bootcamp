@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  font-size: 2rem;
+}
+
+.barraLateral {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-right: solid 3px blue;
+  gap: 20px;
+}
+p {
+  border: solid 1px red;
+  padding: 15px;
+}
+.principal {
+  flex-grow: 1;
+  padding: 15px;
+}
+
+@media (max-width: 640px) {
+  body {
+    flex-direction: column-reverse;
+  }
+  .barraLateral {
+    border-top: solid 3px blue;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
