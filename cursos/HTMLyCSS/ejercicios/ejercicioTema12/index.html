@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementos de Interés en Bootstrap</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- 
+        Crea un nuevo documento HTML con el título "Elementos de Interés en Bootstrap"
+        Utilizando la página oficial getboostrap.com, añade la última versión de Bootstrap a este documento HTML
+        Crea tres secciones
+        En la primera sección crea un Jumbotron replicando el que realizamos en el vídeo
+        El botón de llamada a la acción debe abrir una ventana modal
+        En la segunda sección crea un formulario de contacto con los campos "nombre" (text), "teléfono" (number) y mensaje (textarea)
+        En la tercera sección crea una tarjeta con tu perfil de desarrollador/a que contenga lo siguiente
+        Tu nombre en el título
+        Una breve descripción
+        Tu email en el footer
+    -->
+    <section class="row p-5">
+      <div class="bg-light p-5 rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+          <p class="col-md-8 fs-4">
+            Using a series of utilities, you can create this jumbotron, just
+            like the one in previous versions of Bootstrap. Check out the
+            examples below for how you can remix and restyle it to your liking.
+          </p>
+          <button
+            class="btn btn-primary btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#modal"
+          >
+            Example button
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="row p-5">
+      <form action="/">
+        <div class="mb-3">
+          <label class="form-label" for="nombre">Ingresa tu nombre</label>
+          <input
+            id="nombre"
+            type="text"
+            class="form-control"
+            placeholder="Tu nombre"
+          />
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="telefono"
+            >Ingresa tu numero de teléfono</label
+          >
+          <input
+            id="telefono"
+            type="number"
+            class="form-control"
+            placeholder="Tu teléfono"
+          />
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="mensaje">Ingresa tu mensaje</label>
+          <textarea
+            id="mensaje"
+            type="text"
+            class="form-control"
+            placeholder="Tu mensaje"
+          ></textarea>
+        </div>
+      </form>
+    </section>
+    <section class="row p-5">
+      <div class="card" style="width: 15rem">
+        <div class="card-body">
+          <h5 class="card-title">Juan Moraga</h5>
+          <p class="card-text">
+            ¡Hola!, Soy Juan, tengo 36 años, soy de Argentina, y me gusta
+            programar.
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="mailto:info@moraga.com.ar">info@moraga.com.ar</a>
+        </div>
+      </div>
+    </section>
+    <div class="modal fade" id="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Titulo</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Cuerpo</p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
