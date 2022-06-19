@@ -1,0 +1,20 @@
+div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-modern {
+  width: 150px;
+  height: 50px;
+}
+
+.btn-modern:hover {
+  background-color: darksalmon;
+  color: white;
+  position: relative;
+  transform: translateY(-5px);
+  transition: 0.4s;
+  box-shadow: 15px -15px teal;
+}
