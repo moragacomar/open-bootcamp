@@ -1,0 +1,13 @@
+$text-color: #3f3f3f;
+
+@mixin formato-text($bg-color:#f3f3f3) {
+    width: 50rem;
+    color: $text-color;
+    text-transform: uppercase;
+    background-color: $bg-color;
+    
+}
+
+h1 {
+    @include formato-text();
+}
