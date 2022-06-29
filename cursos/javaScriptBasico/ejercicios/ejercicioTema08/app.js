@@ -19,13 +19,15 @@ const funcionAsincrona = async () => {
 
 funcionAsincrona();
 
-
-const indicesPares = ultimoNumero => {
-    const indices = [];
-    for (let i = 2; i <= ultimoNumero; i = i + 2) {
-        indices.push(i)
+function* indicesPares(indice = 2) {
+    while (indice <= 10) {
+        yield indice;
+        indice = indice + 2;
     }
-    return indices;
 }
 
-imprimir(indicesPares(23));
+const indice = indicesPares();
+
+imprimir(indice.next().value);
+
+imprimir(indice.next().value);
