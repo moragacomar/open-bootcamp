@@ -17,4 +17,4 @@ function fibonacci(num) {
 
 console.log(fibonacci(6));
 
-/* Se uso la depuracion de VSCode para comprobar su funcionamiento */
+/* Se uso la depuracion de VSCode para comprobar su funcionamiento paso a paso */
