@@ -15,4 +15,6 @@ function fibonacci(num) {
     return array;
 }
 
-console.log(fibonacci(16));
+console.log(fibonacci(6));
+
+/* Se uso la depuracion de VSCode para comprobar su funcionamiento */
