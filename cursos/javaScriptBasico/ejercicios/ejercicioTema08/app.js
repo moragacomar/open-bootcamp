@@ -29,5 +29,4 @@ function* indicesPares(indice = 2) {
 const indice = indicesPares();
 
 imprimir(indice.next().value);
-
 imprimir(indice.next().value);
