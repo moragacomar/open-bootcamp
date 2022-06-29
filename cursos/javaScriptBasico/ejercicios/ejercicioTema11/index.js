@@ -9,12 +9,14 @@
  */
 
 class Estudiante {
+    #nombre;
+    #asignaturas;
     constructor(nombre = "", asignaturas = []) {
-        this.nombre = nombre;
-        this.asignaturas = asignaturas;
+        this.#nombre = nombre;
+        this.#asignaturas = asignaturas;
     }
     obtenDatos = () => {
-        return { nombre: this.nombre, asignaturas: this.asignaturas }
+        return { nombre: this.#nombre, asignaturas: this.#asignaturas };
     }
 }
 
@@ -23,4 +25,3 @@ console.log(alumno1.obtenDatos());
 
 const alumno2 = new Estudiante();
 console.log(alumno2.obtenDatos());
-
